@@ -1,0 +1,75 @@
+<section class="page-head" style="padding-bottom:40px"><div class="wrap">
+  <span class="eyebrow" data-vi="Bắt đầu">Start here</span>
+  <h1 data-vi="Kể cho chúng tôi bài toán. <span class='grad-text'>Phần còn lại để chúng tôi lo.</span>">Tell us the problem. <span class="grad-text">We handle the rest.</span></h1>
+  <p class="lead" data-vi="Chỉ cần vài dòng. Bạn sẽ nhận phản hồi cá nhân từ TS. Hoàng Văn Quản trong vòng 24 giờ làm việc — không phải tin nhắn tự động.">A few lines are enough. You will get a personal reply from Dr. Hoang within 24 working hours — not an automated sequence.</p>
+</div></section>
+
+<section style="padding-bottom:90px"><div class="wrap form-wrap">
+  <form class="form" id="quoteForm" novalidate>
+    <h3 data-vi="Yêu cầu mô phỏng / báo giá">Simulation request</h3>
+    <p class="muted" style="font-size:.93rem" data-vi="Các mục có * là bắt buộc. Mất khoảng 2 phút.">Fields marked * are required. Takes about 2 minutes.</p>
+    <div class="fgrid">
+      <div class="full">
+        <label data-vi="Bạn cần gì? *">What do you need? *</label>
+        <div class="choice">
+          <label><input type="radio" name="service" value="review" checked><span data-vi="Đánh giá khả thi miễn phí">Free feasibility review</span></label>
+          <label><input type="radio" name="service" value="study"><span data-vi="Nghiên cứu mô phỏng">Simulation study</span></label>
+          <label><input type="radio" name="service" value="rnd"><span data-vi="R&D / bộ giải riêng">R&amp;D / custom solver</span></label>
+          <label><input type="radio" name="service" value="training"><span data-vi="Đào tạo">Training</span></label>
+          <label><input type="radio" name="service" value="other"><span data-vi="Khác / hợp tác nghiên cứu">Other / research collaboration</span></label>
+        </div>
+      </div>
+      <div><label for="f-name" data-vi="Họ tên *">Name *</label><input id="f-name" name="name" required autocomplete="name"></div>
+      <div><label for="f-email">E-mail *</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+      <div><label for="f-company" data-vi="Công ty / tổ chức">Company / organisation</label><input id="f-company" name="company" autocomplete="organization"></div>
+      <div><label for="f-country" data-vi="Quốc gia">Country</label><input id="f-country" name="country" autocomplete="country-name"></div>
+      <div class="full">
+        <label data-vi="Lĩnh vực">Area</label>
+        <div class="choice">
+          <label><input type="checkbox" name="area" value="thermal"><span data-vi="Nhiệt / làm mát">Thermal / cooling</span></label>
+          <label><input type="checkbox" name="area" value="multiphase"><span data-vi="Đa pha / mặt thoáng">Multiphase / free surface</span></label>
+          <label><input type="checkbox" name="area" value="fire"><span data-vi="Cháy / thông gió">Fire / ventilation</span></label>
+          <label><input type="checkbox" name="area" value="hazard"><span data-vi="Lũ / thiên tai">Flood / hazards</span></label>
+          <label><input type="checkbox" name="area" value="aero"><span data-vi="Khí động / thủy động">Aero / hydrodynamics</span></label>
+          <label><input type="checkbox" name="area" value="other"><span data-vi="Khác">Other</span></label>
+        </div>
+      </div>
+      <div class="full"><label for="f-msg" data-vi="Mô tả bài toán và câu hỏi bạn muốn trả lời *">Describe the problem and the question you want answered *</label>
+        <textarea id="f-msg" name="message" required placeholder="e.g. Our 150 kW motor reaches 180 °C in the end windings at peak load. We want to know where to place oil nozzles to bring it below 150 °C." data-vi-ph="VD: Động cơ 150 kW đạt 180 °C ở đầu cuộn dây khi tải đỉnh. Chúng tôi muốn biết đặt vòi dầu ở đâu để giảm xuống dưới 150 °C."></textarea></div>
+      <div><label for="f-time" data-vi="Thời hạn mong muốn">Desired timeline</label>
+        <select id="f-time" name="timeline">
+          <option value="" data-vi="— chọn —">— select —</option>
+          <option data-vi="Gấp (dưới 2 tuần)">Urgent (&lt; 2 weeks)</option>
+          <option data-vi="1–2 tháng">1–2 months</option>
+          <option data-vi="Linh hoạt">Flexible</option>
+        </select></div>
+      <div><label for="f-budget" data-vi="Ngân sách dự kiến (tuỳ chọn)">Budget range (optional)</label>
+        <select id="f-budget" name="budget">
+          <option value="" data-vi="— chọn —">— select —</option>
+          <option data-vi="Chưa xác định">Not defined yet</option>
+          <option>&lt; 2 000 USD</option>
+          <option>2 000 – 8 000 USD</option>
+          <option>8 000 – 25 000 USD</option>
+          <option>&gt; 25 000 USD</option>
+        </select></div>
+      <div class="full"><label for="f-files" data-vi="Link tới CAD / dữ liệu (tuỳ chọn)">Link to CAD / data (optional)</label>
+        <input id="f-files" name="files" placeholder="Google Drive, Dropbox, WeTransfer…" data-vi-ph="Google Drive, Dropbox, WeTransfer…"></div>
+      <div class="full"><label class="check"><input type="checkbox" name="nda" value="yes"><span data-vi="Tôi muốn ký NDA trước khi chia sẻ thông tin chi tiết.">I would like to sign an NDA before sharing details.</span></label></div>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    </div>
+    <div class="form-foot">
+      <button class="btn btn-primary" type="submit"><span data-vi="Gửi yêu cầu">Send request</span> <span class="arr">→</span></button>
+      <small data-vi="Thông tin của bạn chỉ dùng để trả lời yêu cầu này.">Your details are only used to answer this request.</small>
+    </div>
+    <div class="form-msg" id="formMsg" role="status"></div>
+  </form>
+
+  <aside class="assure">
+    <div class="card"><h4 data-vi="⏱ Phản hồi trong 24 giờ">⏱ Reply within 24 hours</h4><p data-vi="Trả lời cá nhân, kèm hướng tiếp cận sơ bộ.">A personal answer with a first technical approach.</p></div>
+    <div class="card"><h4 data-vi="🔒 Bảo mật">🔒 Confidential</h4><p data-vi="NDA trước khi nhận file. Không công bố dự án của bạn nếu không được phép.">NDA before any file. Your project is never published without permission.</p></div>
+    <div class="card"><h4 data-vi="💬 Không ràng buộc">💬 No obligation</h4><p data-vi="Đánh giá khả thi miễn phí. Bạn quyết định có tiếp tục hay không.">The feasibility review is free. You decide whether to go further.</p></div>
+    <div class="card"><h4 data-vi="✉ Thích e-mail hơn?">✉ Prefer e-mail?</h4><p><a data-site="email" href="mailto:hvquan@ictu.edu.vn" style="color:var(--cold)">hvquan@ictu.edu.vn</a></p>
+      <p><a class="btn btn-ghost btn-sm" data-booking hidden href="#" style="margin-top:12px" data-vi="Đặt lịch gọi 20 phút">Book a 20-min call</a></p></div>
+    <div class="card"><h4 data-vi="🌍 Ngôn ngữ">🌍 Languages</h4><p>English · Français · Tiếng Việt</p></div>
+  </aside>
+</div></section>

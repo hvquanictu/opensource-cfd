@@ -1,0 +1,8 @@
+# raw sources & helper scripts stay local (large / private)
+_src/video/
+_src/*.jpg
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+_src/pc1_media/

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenSource CFD — Validated CFD simulation services on OpenFOAM</title>
+<meta name="description" content="PhD-level CFD simulation and consulting on OpenFOAM: thermal management of e-motors and batteries, multiphase flows, fire & smoke, floods. Validated against experiments, full case files delivered, no licence fees.">
+<meta property="og:title" content="OpenSource CFD — Simulation answers before you build">
+<meta property="og:description" content="Validated CFD on open-source software. Free feasibility review within 24 h.">
+<meta property="og:image" content="https://opensource-cfd.com/assets/img/projects/cht-vof-end-winding/hero.webp">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://opensource-cfd.com/">
+<link rel="icon" href="assets/img/logo-32.png" type="image/png" sizes="32x32"><link rel="icon" href="assets/img/logo-64.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="assets/img/logo-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"OpenSource CFD","url":"https://opensource-cfd.com","description":"CFD simulation and consulting on OpenFOAM","founder":{"@type":"Person","name":"Dr. Van Quan Hoang","jobTitle":"CFD engineer, PhD (ISAE-ENSMA)"},"areaServed":"Worldwide","knowsAbout":["Computational Fluid Dynamics","OpenFOAM","Conjugate heat transfer","Multiphase flow","Fire smoke simulation","Flood simulation"]}
+</script>
+</head>
+<body>
+
+<!-- HERO: outcome-first promise + low-risk CTA -->
+<section class="hero">
+  <div class="hero-media">
+    <video autoplay muted loop playsinline preload="auto" poster="assets/video/end-winding-oil-film.webp">
+      <source src="assets/video/end-winding-oil-film.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap">
+    <div class="hero-badges">
+      <span class="chip"><span class="dot"></span><span data-vi="Đang nhận dự án mới — còn <b data-site='slotsThisMonth'>2</b> suất tháng này">Accepting new studies — <b data-site="slotsThisMonth">2</b> slots left this month</span></span>
+      <span class="chip">OpenFOAM · PhD · Q1 journals</span>
+    </div>
+    <h1 data-vi="Biết câu trả lời <span class='grad-text'>trước khi</span> chế tạo.">Know the answer <span class="grad-text">before</span> you build it.</h1>
+    <p class="lead" data-vi="Mô phỏng CFD trình độ tiến sĩ cho dòng chảy, truyền nhiệt và đa pha — kiểm chứng với thực nghiệm, chạy trên OpenFOAM mã nguồn mở. Bạn nhận kết quả đáng tin, báo cáo rõ ràng và toàn bộ case file. Không phí bản quyền, không hộp đen.">PhD-level CFD for flow, heat transfer and multiphase problems — validated against experiments, built on open-source OpenFOAM. You get trustworthy numbers, a clear report and every case file. No licence fees. No black boxes.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="contact.html?type=review"><span data-vi="Nhận đánh giá khả thi miễn phí">Get a free feasibility review</span> <span class="arr">→</span></a>
+      <a class="btn btn-ghost" href="projects.html" data-vi="Xem các dự án">See the work</a>
+    </div>
+    <div class="hero-note">
+      <span data-vi="Phản hồi trong 24 giờ">Reply within 24 h</span>
+      <span data-vi="Ký NDA trước khi gửi file">NDA before any file</span>
+      <span data-vi="Báo giá trọn gói">Fixed-price quote</span>
+    </div>
+  </div>
+  <div class="scroll-cue">SCROLL</div>
+</section>
+
+<!-- PROOF: authority + specific numbers -->
+<section class="proof">
+  <div class="wrap">
+    <div class="proof-grid">
+      <div class="proof-item"><b class="grad-text"><span data-count="3.0" data-suffix=" %">3.0 %</span></b><span data-vi="sai lệch trung bình so với thực nghiệm (Nusselt, 20 tia dầu)">mean deviation from experiments (Nusselt, 20 oil jets)</span></div>
+      <div class="proof-item"><b class="grad-text"><span data-count="7">7</span></b><span data-vi="bài báo khoa học — 4 bài trên tạp chí Q1">journal &amp; conference papers — 4 in Q1 journals</span></div>
+      <div class="proof-item"><b class="grad-text"><span data-count="11">11</span></b><span data-vi="dự án công khai, có hình ảnh và video">open case studies with images &amp; video</span></div>
+      <div class="proof-item"><b class="grad-text">0 €</b><span data-vi="phí bản quyền phần mềm chuyển sang bạn">software licence fees passed on to you</span></div>
+    </div>
+  </div>
+  <div class="wrap logos">
+    <em data-vi="Kinh nghiệm tại">Experience at</em>
+    <span>IFPEN</span><span>ISAE-ENSMA</span><span>ENEAD</span><span>Hanoi Univ. of Science &amp; Tech.</span><span>ICTU</span>
+  </div>
+</section>
+
+<!-- PAIN → GAIN: loss aversion, speak the client's problem -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-vi="Vì sao khách hàng tìm đến">Why clients call</span>
+      <h2 data-vi="Một mẫu thử hỏng tốn nhiều hơn một lần mô phỏng.">A failed prototype costs more than a simulation.</h2>
+      <p class="lead" data-vi="Mỗi vòng thiết kế–chế tạo–thử nghiệm mất hàng tuần và hàng chục nghìn đô. Mô phỏng tốt cho bạn thấy điều gì sẽ xảy ra — và vì sao — trước khi cắt kim loại.">Every build–test–fail loop burns weeks and tens of thousands of dollars. A good simulation shows you what will happen — and why — before you cut metal.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card pain reveal">
+        <p class="q" data-vi="“Động cơ quá nhiệt ở tải cao, chúng tôi không biết điểm nóng nằm đâu.”">“Our motor overheats at peak load and we can’t see where the hot spot is.”</p>
+        <p class="a" data-vi="→ <b>CFD dầu hai pha + truyền nhiệt liên hợp</b> chỉ ra vùng cuộn dây không được dầu phủ và tối ưu vị trí vòi phun.">→ <b>Two-phase oil + conjugate heat transfer</b> shows which winding zones stay dry and where to put the nozzles.</p>
+      </div>
+      <div class="card pain reveal">
+        <p class="q" data-vi="“Thẩm duyệt PCCC yêu cầu chứng minh hầm xe an toàn khi cháy.”">“The fire authority wants proof that our car park stays tenable in a fire.”</p>
+        <p class="a" data-vi="→ <b>Mô phỏng khói & nhiệt 3D</b> với quạt phản lực thật, đánh giá điều kiện thoát nạn theo thời gian.">→ <b>3-D smoke &amp; heat simulation</b> with your real jet fans, with time-resolved tenability at every escape route.</p>
+      </div>
+      <div class="card pain reveal">
+        <p class="q" data-vi="“Nếu sạt lở đổ vào hồ, nước có tràn đập không?”">“If a landslide hits the reservoir, will the wave overtop the dam?”</p>
+        <p class="a" data-vi="→ <b>Mô hình địa hình → CFD</b> từ dữ liệu vệ tinh: tốc độ sóng, mực nước tại đập, vùng ảnh hưởng.">→ <b>Terrain-to-CFD model</b> from satellite data: wave speed, water level at the dam, affected zones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED WORK: show, don't tell -->
+<section class="section alt">
+  <div class="wrap">
+    <div class="sec-head" style="display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap">
+      <div>
+        <span class="eyebrow" data-vi="Dự án tiêu biểu">Featured work</span>
+        <h2 data-vi="Kết quả thật. Kiểm chứng thật.">Real results. Real validation.</h2>
+      </div>
+      <a class="btn btn-ghost btn-sm" href="projects.html"><span data-vi="Tất cả dự án">All projects</span> <span class="arr">→</span></a>
+    </div>
+    <div id="featured"></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow" data-vi="Chuyên môn">What we simulate</span>
+      <h2 data-vi="Những bài toán khó mà phần mềm “bấm nút” bỏ qua.">The hard physics that push-button tools skip.</h2>
+    </div>
+    <div class="grid g3">
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v6m0 8v6M4.9 4.9l4.2 4.2m5.8 5.8 4.2 4.2M2 12h6m8 0h6"/></svg></div>
+        <h3 data-vi="Quản lý nhiệt & xe điện">Thermal management &amp; e-mobility</h3>
+        <p data-vi="Làm mát động cơ điện bằng dầu, tấm làm mát pin, áo nước, điện tử công suất, trung tâm dữ liệu.">Oil-cooled e-motors, battery cold plates, water jackets, power electronics, data-centre liquid cooling.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+        <h3 data-vi="Dòng đa pha & mặt thoáng">Multiphase &amp; free-surface</h3>
+        <p data-vi="VOF, phun và màng lỏng, góc tiếp xúc động, sóng, bể chứa, tràn — kể cả lưới thích nghi động.">VOF, sprays and films, dynamic wetting, sloshing, waves, spillways — with adaptive mesh refinement.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 22c4 0 7-3 7-7 0-5-5-7-5-12-3 2-4 5-4 7-1-1-2-2-2-4-2 2-3 5-3 9 0 4 3 7 7 7z"/></svg></div>
+        <h3 data-vi="Cháy, khói & thông gió">Fire, smoke &amp; ventilation</h3>
+        <p data-vi="Hầm xe, đường hầm, nhà cao tầng, kho pin; thông gió và tiện nghi nhiệt trong nhà.">Car parks, tunnels, high-rise and battery storage; HVAC and indoor thermal comfort.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M2 18c3 0 3-2 6-2s3 2 6 2 3-2 6-2M2 12c3 0 3-2 6-2s3 2 6 2 3-2 6-2M8 6l4-3 4 3"/></svg></div>
+        <h3 data-vi="Lũ lụt & thiên tai">Floods &amp; natural hazards</h3>
+        <p data-vi="Vỡ đập, sóng do sạt lở, ngập lụt đô thị — từ dữ liệu địa hình công khai đến mô hình 3D.">Dam break, landslide-generated waves, urban flooding — from public terrain data to 3-D models.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 17l6-6 4 4 6-8"/><path d="M14 7h6v6"/></svg></div>
+        <h3 data-vi="Tối ưu hoá thiết kế">Design optimisation</h3>
+        <p data-vi="Vòng lặp tự động DAKOTA + OpenFOAM: hàng trăm phương án hình học, chọn ra phương án tốt nhất.">Automated DAKOTA + OpenFOAM loops: hundreds of geometry variants, the best one picked for you.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></div>
+        <h3 data-vi="Bộ giải tuỳ biến & đào tạo">Custom solvers &amp; training</h3>
+        <p data-vi="Viết bộ giải OpenFOAM riêng cho vật lý của bạn; đào tạo đội kỹ sư tự vận hành.">New OpenFOAM solvers for your physics; hands-on training so your team can run them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS: reduce uncertainty -->
+<section class="section alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-vi="Quy trình">How it works</span>
+      <h2 data-vi="Rõ ràng từ ngày đầu. Không bất ngờ.">Clear from day one. No surprises.</h2>
+      <p class="lead" data-vi="Bạn biết trước phạm vi, giá và thời hạn — và luôn thấy tiến độ.">You know the scope, price and deadline up front — and you see progress all the way.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h3 data-vi="Đánh giá miễn phí">Free feasibility review</h3><p data-vi="Bạn mô tả bài toán. Chúng tôi trả lời: có giải được không, bằng cách nào, độ chính xác kỳ vọng.">You describe the problem. We tell you if CFD can answer it, how, and with what accuracy.</p><div class="when" data-vi="≤ 24 giờ · miễn phí">≤ 24 h · free</div></div>
+      <div class="step reveal"><h3 data-vi="Báo giá trọn gói">Fixed-price proposal</h3><p data-vi="Phạm vi, mô hình vật lý, cách kiểm chứng, các mốc bàn giao và giá cố định. Ký NDA nếu cần.">Scope, physics models, validation plan, milestones and a fixed price. NDA signed if needed.</p><div class="when" data-vi="2–5 ngày">2–5 days</div></div>
+      <div class="step reveal"><h3 data-vi="Mô phỏng & kiểm chứng">Simulate &amp; validate</h3><p data-vi="Hình học, lưới, độc lập lưới, so sánh với thực nghiệm hoặc lời giải chuẩn. Cập nhật hằng tuần.">Geometry, mesh, mesh-independence, comparison with experiments or benchmarks. Weekly updates.</p><div class="when" data-vi="2–6 tuần">2–6 weeks</div></div>
+      <div class="step reveal"><h3 data-vi="Bàn giao & hỗ trợ">Deliver &amp; support</h3><p data-vi="Báo cáo, hình ảnh, video, toàn bộ case OpenFOAM bạn có thể chạy lại. 30 ngày hỗ trợ câu hỏi.">Report, images, videos and the complete OpenFOAM case you can re-run. 30 days of follow-up questions.</p><div class="when" data-vi="bạn sở hữu mọi thứ">you own everything</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY OPEN SOURCE: reframe objection into advantage -->
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow" data-vi="Vì sao mã nguồn mở">Why open source</span>
+      <h2 data-vi="Kết quả bạn có thể kiểm tra, chạy lại và sở hữu.">Results you can inspect, re-run and own.</h2>
+      <p class="lead" style="margin-top:18px" data-vi="OpenFOAM được dùng bởi các hãng ô tô, hàng không và năng lượng lớn nhất thế giới. Khác biệt không nằm ở phần mềm — mà ở người biết phải tin vào con số nào.">OpenFOAM is used across the automotive, aerospace and energy industries. The difference is never the software — it is knowing which numbers to trust.</p>
+      <ul class="checks">
+        <li data-vi="Không phí bản quyền hàng chục nghìn đô mỗi năm">No five-figure annual licence in your quote</li>
+        <li data-vi="Được sửa thuật toán khi vật lý của bạn không có sẵn">We change the algorithm when your physics is not built in</li>
+        <li data-vi="Case file mở — đội của bạn chạy lại cho phương án mới">Open case files — your team can re-run new variants</li>
+        <li data-vi="Không bị khoá vào nhà cung cấp">No vendor lock-in, ever</li>
+      </ul>
+      <a class="btn btn-ghost" href="services.html#compare"><span data-vi="So sánh các lựa chọn">Compare your options</span> <span class="arr">→</span></a>
+    </div>
+    <div class="media lightboxable"><img src="assets/img/projects/cht-vof-end-winding/nu-re.webp" alt="Validation: Nusselt number vs Reynolds number against experiments"></div>
+  </div>
+</section>
+
+<!-- FOUNDER: personal authority + liking -->
+<section class="section alt">
+  <div class="wrap founder">
+    <div class="avatar reveal">VQ<!-- add <img src="assets/img/founder.jpg" alt=""> here --></div>
+    <div class="reveal">
+      <span class="eyebrow" data-vi="Người thực hiện">Who does the work</span>
+      <h2 data-vi="TS. Hoàng Văn Quản">Dr. Van Quan Hoang</h2>
+      <p class="lead" style="margin-top:14px" data-vi="Tiến sĩ Cơ học & Năng lượng (ISAE-ENSMA, Pháp). Từng là kỹ sư R&I tại IFPEN và Trưởng R&D tại ENEAD (Pháp). Tác giả bộ giải truyền nhiệt liên hợp hai pha cho làm mát động cơ điện. Bạn làm việc trực tiếp với chuyên gia — không qua trung gian, không giao cho thực tập sinh.">PhD in Mechanics &amp; Energy (ISAE-ENSMA, France). Former R&amp;I engineer at IFPEN and R&amp;D manager at ENEAD, France. Author of a two-phase conjugate heat transfer solver for e-motor cooling. You work directly with the expert — no account managers, no hand-off to juniors.</p>
+      <div class="btn-row" style="margin-top:26px">
+        <a class="btn btn-ghost btn-sm" href="about.html" data-vi="Hồ sơ đầy đủ">Full profile</a>
+        <a class="btn btn-ghost btn-sm" href="research.html" data-vi="Công bố khoa học">Publications</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MORE WORK -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-vi="Thêm từ phòng lab">More from the lab</span>
+      <h2 data-vi="Mã nguồn mở, kết quả mở.">Open code, open results.</h2>
+      <p class="lead" data-vi="Mọi dự án công khai ở đây đều có thể tham khảo miễn phí. Thư viện được cập nhật liên tục.">Every public study here is free to learn from. The library grows every month.</p>
+    </div>
+    <div class="grid g3" id="latest"></div>
+  </div>
+</section>
+
+<!-- FAQ: handle objections -->
+<section class="section alt">
+  <div class="wrap" style="max-width:900px">
+    <div class="sec-head center">
+      <span class="eyebrow" data-vi="Câu hỏi thường gặp">FAQ</span>
+      <h2 data-vi="Trước khi bạn hỏi.">Before you ask.</h2>
+    </div>
+    <div class="faq">
+      <details><summary data-vi="OpenFOAM có chính xác bằng Ansys Fluent hay STAR-CCM+ không?">Is OpenFOAM as accurate as Ansys Fluent or STAR-CCM+?</summary><p data-vi="Độ chính xác đến từ mô hình vật lý, chất lượng lưới và kiểm chứng — không phải nhãn phần mềm. Mọi nghiên cứu của chúng tôi đều kèm kiểm tra độc lập lưới và so sánh với thực nghiệm hoặc lời giải chuẩn, ví dụ Nusselt lệch 3,0 % so với 20 thí nghiệm tia dầu.">Accuracy comes from the physics models, mesh quality and validation — not from the software brand. Every study includes a mesh-independence check and a comparison with experiments or reference solutions; for example, our oil-jet solver is within 3.0 % of 20 experiments.</p></details>
+      <details><summary data-vi="Dữ liệu và thiết kế của tôi có được bảo mật?">Is my geometry and data kept confidential?</summary><p data-vi="Có. Chúng tôi ký NDA trước khi nhận bất kỳ file nào. Dự án của khách hàng không bao giờ được công bố nếu không có sự đồng ý bằng văn bản.">Yes. We sign an NDA before receiving any file. Client projects are never published without written permission.</p></details>
+      <details><summary data-vi="Tôi cần cung cấp những gì?">What do I need to provide?</summary><p data-vi="Một mô tả ngắn và câu hỏi bạn muốn trả lời là đủ để bắt đầu. Sau đó: CAD (STEP/STL), điều kiện vận hành, tính chất vật liệu và dữ liệu đo nếu có.">A short description and the question you want answered is enough to start. Later: CAD (STEP/STL), operating conditions, material properties and any measured data you have.</p></details>
+      <details><summary data-vi="Chi phí bao nhiêu?">How much does it cost?</summary><p data-vi="Mỗi dự án được báo giá trọn gói sau buổi đánh giá miễn phí. Một nghiên cứu điển hình rẻ hơn một vòng chế tạo mẫu thử — và rẻ hơn nhiều so với một năm bản quyền phần mềm thương mại.">Every study gets a fixed price after the free review. A typical study costs less than one prototype iteration — and far less than one year of a commercial CFD licence.</p></details>
+      <details><summary data-vi="Mất bao lâu?">How long does it take?</summary><p data-vi="Đánh giá khả thi: 24 giờ. Nghiên cứu tiêu chuẩn: 2–6 tuần tùy độ phức tạp. Có thể làm gấp khi cần.">Feasibility review: 24 h. Standard study: 2–6 weeks depending on complexity. Express timelines are possible.</p></details>
+      <details><summary data-vi="Các bạn có làm việc với khách hàng quốc tế?">Do you work with international clients?</summary><p data-vi="Có. Chúng tôi làm việc bằng tiếng Anh, tiếng Pháp và tiếng Việt, từ xa với khách hàng ở mọi múi giờ.">Yes. We work in English, French and Vietnamese, remotely, with clients in any time zone.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA: reciprocity + honest scarcity -->
+<section class="section">
+  <div class="wrap">
+    <div class="cta-band">
+      <span class="eyebrow" data-vi="Bước tiếp theo">Next step</span>
+      <h2 data-vi="Kể cho chúng tôi bài toán của bạn.<br>Nhận câu trả lời trung thực trong 24 giờ.">Tell us your problem.<br>Get an honest answer in 24 hours.</h2>
+      <p class="lead" data-vi="Đánh giá khả thi hoàn toàn miễn phí, không ràng buộc. Nếu CFD không phải công cụ phù hợp, chúng tôi sẽ nói thẳng.">The feasibility review is free and carries no obligation. If CFD is not the right tool for you, we will tell you so.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="contact.html?type=review"><span data-vi="Bắt đầu đánh giá miễn phí">Start my free review</span> <span class="arr">→</span></a>
+        <a class="btn btn-ghost" data-booking hidden href="#" data-vi="Đặt lịch gọi 20 phút">Book a 20-min call</a>
+      </div>
+      <p class="scarcity" data-vi="Mỗi tháng chỉ nhận số lượng dự án giới hạn để đảm bảo chất lượng.">We take a limited number of studies each month to keep quality high.</p>
+    </div>
+  </div>
+</section>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/projects-data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
